@@ -1,11 +1,15 @@
+//Importaciones Comunes
+
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import App from './App'
+
+//Importaciones components
+import Nav from '../Components/Nav/nav.jsx'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Nav></Nav>
   </React.StrictMode>,
   document.getElementById('root')
 )

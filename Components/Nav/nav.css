@@ -1,0 +1,51 @@
+:root {
+    --font-principal: 'Heebo', sans-serif;
+    --font-secundario: 'Poppins', sans-serif;
+}
+
+.navegation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font: normal 800 30px/53px var(--font-principal);
+}
+
+
+.linksNavegation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    font: normal 500 20px/36px var(--font-secundario);
+}
+
+.linksNavegation li {
+    list-style: none;
+}
+
+.linksNavegation li a {
+    text-decoration: none;
+}
+
+.icon {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+   .linksNavegation {
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 40%;
+        height: 100vh;
+    }
+
+    .icon {
+        display: block;
+    }
+}
+    
