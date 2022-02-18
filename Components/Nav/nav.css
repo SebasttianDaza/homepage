@@ -1,16 +1,19 @@
 :root {
     --font-principal: 'Heebo', sans-serif;
     --font-secundario: 'Poppins', sans-serif;
+    --color-text: #333333;
 }
 
 .navegation {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    height: 6rem;
 }
 
 .title {
     font: normal 800 30px/53px var(--font-principal);
+    color: var(--color-text);
 }
 
 
@@ -28,6 +31,7 @@
 
 .linksNavegation li a {
     text-decoration: none;
+    color: var(--color-text);
 }
 
 .icon {
@@ -36,16 +40,27 @@
 
 @media screen and (max-width: 900px) {
    .linksNavegation {
+        justify-content: space-evenly;
+        background-color: #2D9CDB;
         flex-direction: column;
         position: fixed;
         top: 0;
         right: 0;
-        width: 40%;
+        bottom: 0;
+        width: 40vw;
         height: 100vh;
+        z-index: 998;
+        transition: transform 0.5s ease-in-out;
+        transform: translateX(100%);
+    }
+
+    .is-actives {
+        transform: translateX(0);
     }
 
     .icon {
         display: block;
+        z-index: 999;
     }
 }
     

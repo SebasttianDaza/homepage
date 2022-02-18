@@ -7,7 +7,7 @@ function Nav () {
           <h1>Edie</h1>
         </div>
 
-        <ul className="linksNavegation">
+        <ul id='nav' className="linksNavegation">
           <li>
             <a href="">Home</a>
           </li>
@@ -25,12 +25,13 @@ function Nav () {
           </li>
         </ul>
 
-        <div className="icon">
-            <i className="fas fa-bars"></i>
-        </div>
+        <button onClick={() => { document.getElementById('btn').classList.toggle('is-active');document.getElementById("nav").classList.toggle("is-actives");}}  id='btn' className="hamburger hamburger--arrow icon" type="button">
+          <span className="hamburger-box">
+            <span className="hamburger-inner"></span>
+          </span>
+        </button>
       </nav>
     );
 }
-
 
 export default Nav;
