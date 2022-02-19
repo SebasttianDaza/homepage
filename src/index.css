@@ -1,8 +1,21 @@
+:root {
+  --font-principal: 'Heebo', sans-serif;
+  --font-secundario: 'Poppins', sans-serif;
+  --color-text: #333333;
+  --color-text-secundario: #2D9CDB;
+  --style-font: normal 800 48px/72px var(--font-secundario);
+  --style-font-text: normal 500 18px/27px var(--font-secundario);
+  --style-font-text-second: normal 500 14px/21px var(--font-secundario);
+  --color-text-second: #4F4F4F;
+  --background-color: #F2F2F2;
+  --background-color-second:#2D9CDB;
+}
+
 html, body {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Heebo','Poppins', sans-serif;
+  font-family: var(--font-principal), var(--font-secundario);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 90vw;

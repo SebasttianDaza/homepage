@@ -1,0 +1,103 @@
+.first {
+    width: 543px;
+    margin-right: auto;
+    margin-left: 12rem;
+    height: auto;
+}
+
+.first h5 {
+    font: var(--style-font-text);
+    color: var(--color-text-secundario);
+}
+
+.first h2 {
+    font: var(--style-font);
+    color: var(--color-text);
+}
+
+.second img {
+    border-radius: 18px;
+}
+
+.third {
+    width: 500px;
+    height: auto;
+    margin-right: auto;
+    margin-left: 12rem;
+}
+
+.third h3 {
+    font: var(--style-font);
+    color: var(--color-text);
+}
+
+.third p {
+    font: var(--style-font-text);
+    color: var(--color-text-second);
+}
+
+#form {
+    width: 100%;
+}
+
+#form label {
+    font: var(--style-font-text-second);
+    color: #828282;
+}
+
+#form div {
+    display: grid;
+    grid-template-columns: 1fr .4fr;
+    width: 100%;
+    background-color: var(--background-color);
+    border-radius: 12px;
+    height: 57px;
+}
+
+#form div input {
+    border: none;
+    background-color: transparent;
+    font: var(--style-font-text-second);
+    color: var(--color-text);
+    padding: 0;
+    margin: .3rem;
+}
+
+#form div input:focus {
+    outline: none;
+}
+
+#form div button {
+    background-color: var(--background-color-second);
+    border: none;
+    border-radius: 12px;
+    color: var(--color-text);
+    font: normal 500 14px/21px var(--font-secundario);
+    padding: 0;
+    margin: .4rem;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+    .first {
+        width: 80%;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .third {
+        width: 70%;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    
+
+    #form div button {
+        margin: .3rem;
+    }
+}
+    

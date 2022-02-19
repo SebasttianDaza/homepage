@@ -18,7 +18,7 @@ function Banner () {
             outperform your toughest competition and help you achieve your
             strategic goals in short period of time.
           </p>
-          <form>
+          <form id='form'>
             <label for="Email">Want us to contact you?</label>
             <div>
                 <input type="email" name="email" id="Email" placeholder="Email"></input>
@@ -29,5 +29,7 @@ function Banner () {
       </main>
     );
 }
+
+
 
 export default Banner;
