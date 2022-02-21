@@ -1,0 +1,64 @@
+
+.Card {
+    width: 90%;
+    height: auto;
+    margin: 4rem auto;
+}
+
+.CardTitle {
+    width: 40%;
+    font: var(--style-font-text-third);
+    color: var(--color-text);
+}
+
+.CardChild {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2rem;
+}
+
+.Child {
+    width: 346px;
+    height: 422px;
+    padding: 1rem;
+}
+
+.Child:hover {
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+    border-radius: 24px;
+}
+
+.Icon {
+    width: 67px;
+    height: 67px;
+    text-align: center;
+    background-color: var(--background-color-second);
+    border-radius: 16px;
+}
+
+.Icon i {
+    font-size: 2.5rem;
+    color: var(--background-color);
+}
+
+.Information {
+    max-width: 100%;
+}
+
+.Information h4 {
+    font: var(--style-font-text-fourth);
+    color: var(--color-text);
+}
+
+@media screen and (max-width: 900px){
+    .CardTitle {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        font: var(--style-font-text-fourth);
+    }
+
+    .Child {
+        width: 100%;
+    }
+}

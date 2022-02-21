@@ -9,7 +9,7 @@ function Banner () {
           <h2>We create beautiful and fast web services</h2>
         </section>
         <section className="second">
-          <img src="../../assets/heroImage.jpg" alt=""></img>
+          <img src={"../../assets/heroImage.jpg"} alt=""></img>
         </section>
         <section className="third">
           <h3>Story, emotion and purpose</h3>

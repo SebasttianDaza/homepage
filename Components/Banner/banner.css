@@ -24,6 +24,7 @@
     height: auto;
     margin-right: auto;
     margin-left: 12rem;
+    margin-bottom: 4rem;
 }
 
 .third h3 {
@@ -38,6 +39,7 @@
 
 #form {
     width: 100%;
+    
 }
 
 #form label {
@@ -81,6 +83,7 @@
 
 
 
+
 @media screen and (max-width: 900px) {
     .first {
         width: 80%;
@@ -89,12 +92,14 @@
     }
 
     .third {
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
         height: auto;
     }
 
-    
+    #form div {
+        grid-template-columns: 1fr .9fr;
+    }    
 
     #form div button {
         margin: .3rem;
