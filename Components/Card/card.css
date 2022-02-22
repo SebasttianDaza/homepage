@@ -15,12 +15,19 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 2rem;
+    justify-items: center;
+    align-items: center;
 }
 
 .Child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
     width: 346px;
     height: 422px;
-    padding: 1rem;
+    padding: 2rem 1rem;
+    
 }
 
 .Child:hover {
@@ -50,6 +57,21 @@
     color: var(--color-text);
 }
 
+.Information p {
+    font:var(--style-font-text-fifth);
+    color: var(--color-text-second);
+}
+
+.Information button {
+    width: 116px;
+    height: 42px;
+    border-radius: 22px;
+    background-color: var(--background-color-btn);
+    border: none;
+    font:var(--style-font-text-fifth);
+    color: #828282;
+}
+
 @media screen and (max-width: 900px){
     .CardTitle {
         width: 90%;
@@ -59,6 +81,6 @@
     }
 
     .Child {
-        width: 100%;
+        width: 80%;
     }
 }

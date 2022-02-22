@@ -8,9 +8,11 @@
   --style-font-text-second: normal 500 14px/21px var(--font-secundario);
   --style-font-text-third: normal 500 36px/54px var(--font-secundario);
   --style-font-text-fourth: normal 500 24px/36px var(--font-secundario);
+  --style-font-text-fifth: normal 500 16px/24px var(--font-secundario);
   --color-text-second: #4F4F4F;
   --background-color: #F2F2F2;
   --background-color-second:#2D9CDB;
+  --background-color-btn: #E0E0E0;
 }
 
 html, body {
