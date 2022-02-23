@@ -8,6 +8,7 @@ import './index.css'
 import Nav from '../Components/Nav/nav.jsx'
 import Banner from '../Components/Banner/banner.jsx'
 import Card from '../Components/Card/card.jsx'
+import Coments from '../Components/Coments/coments.jsx'
 
 
 import Team from '../Components/Team/team.jsx'
@@ -19,6 +20,7 @@ ReactDOM.render(
     <Card></Card>
 
     <Team></Team>
+    <Coments></Coments>
   </React.StrictMode>,
   document.getElementById('root')
 )
