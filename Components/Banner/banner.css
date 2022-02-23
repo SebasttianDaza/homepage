@@ -1,3 +1,10 @@
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .first {
     width: 543px;
     margin-right: auto;
@@ -13,6 +20,12 @@
 .first h2 {
     font: var(--style-font);
     color: var(--color-text);
+}
+
+.second {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
 }
 
 .second img {
