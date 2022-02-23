@@ -13,16 +13,23 @@
   --background-color: #F2F2F2;
   --background-color-second:#2D9CDB;
   --background-color-btn: #E0E0E0;
+  --background-color-footer: #100E1D;
 }
 
 html, body {
-  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   font-family: var(--font-principal), var(--font-secundario);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  margin: 0;
+}
+
+#bodySecond {
   width: 90vw;
+  margin: 0 auto;
+  padding: 0;
 }
 
 img {

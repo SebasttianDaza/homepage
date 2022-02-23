@@ -1,4 +1,5 @@
 import "./nav.css";
+import Links from "../Links/links.jsx";
 
 function Nav () {
     return (
@@ -7,25 +8,17 @@ function Nav () {
           <h1>Edie</h1>
         </div>
 
-        <ul id='nav' className="linksNavegation">
-          <li>
-            <a href="">Home</a>
-          </li>
-          <li>
-            <a href="">Services</a>
-          </li>
-          <li>
-            <a href="">Our Works</a>
-          </li>
-          <li>
-            <a href="">Clients</a>
-          </li>
-          <li>
-            <a href="">Contact</a>
-          </li>
-        </ul>
+        <Links id="nav" className="linksNavegation"></Links>
 
-        <button onClick={() => { document.getElementById('btn').classList.toggle('is-active');document.getElementById("nav").classList.toggle("is-actives");}}  id='btn' className="hamburger hamburger--arrow icon" type="button">
+        <button
+          onClick={() => {
+            document.getElementById("btn").classList.toggle("is-active");
+            document.getElementById("nav").classList.toggle("is-actives");
+          }}
+          id="btn"
+          className="hamburger hamburger--arrow icon"
+          type="button"
+        >
           <span className="hamburger-box">
             <span className="hamburger-inner"></span>
           </span>
