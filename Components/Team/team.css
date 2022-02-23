@@ -2,7 +2,53 @@
     display: grid;
     width: 90%;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    justify-items: center;
     margin: 4rem auto;
-
 }
+
+.Team img {
+    border-radius: 24px;
+}
+
+
+.teamChild {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+.teamChild h4 {
+    font: var(--style-font-text);
+    color: #EB5757;
+}
+
+.teamChild h3 {
+    font: var(--style-font-text-third);
+    color: #333333;
+}
+
+.teamChild p {
+    font: var(--style-font-text-fifth);
+    color: var(--color-text-second)
+}
+
+.teamChild2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 4rem auto;
+    grid-gap: 1rem;
+}
+
+.teamChild2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .teamChild {
+        width: 80%;
+    }
+}
+    
+
