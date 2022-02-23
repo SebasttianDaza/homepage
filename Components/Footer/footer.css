@@ -15,8 +15,42 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 2rem;
     height: 90%;
+    
+    
 }
+
+.navFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+}
+
+.links {
+    margin: 0;
+    padding: 0;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    font: normal normal 18px/200% var(--font-secundario);
+}
+
 
 .footer p {
     margin: 0;
 }
+
+@media screen and (max-width: 900px) {
+    .navFooter {
+        align-items: flex-start;
+    }
+}
+    
