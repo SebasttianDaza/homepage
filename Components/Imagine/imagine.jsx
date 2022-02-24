@@ -8,7 +8,7 @@ function Imagine () {
           <h4>Good design means good business</h4>
         </section>
         <section className="asideChild">
-          <div className="sectionChild">
+          <div className="sectionChild mar">
             <img src="../../assets/smarthome.jpg" alt="Image the service"></img>
             <p>Full stack application</p>
             <h5>Smart home dashboard</h5>
@@ -18,15 +18,22 @@ function Imagine () {
             <p>UX/UI design</p>
             <h5>Onboard application</h5>
           </div>
-          <div className="sectionChild">
+          <div className="sectionChild mar">
             <img src="../../assets/booking.png" alt="Image the service"></img>
             <p>Mobile application</p>
             <h5>Booking system</h5>
           </div>
-          <div className="sectionChild">
-            <img src="../../assets/juice-product.png" alt="Image the service"></img>
+          <div className="sectionChild ">
+            <img
+              src="../../assets/juice-product.png"
+              alt="Image the service"
+            ></img>
             <p>Front End applicati on</p>
             <h5>Juice product homepage</h5>
+            <div className="btn">
+              <button>See More</button>
+              <i class="bi bi-arrow-right"></i>
+            </div>
           </div>
         </section>
       </aside>

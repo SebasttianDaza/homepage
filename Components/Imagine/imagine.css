@@ -5,10 +5,6 @@
     margin: 4rem auto;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
 
 .asideChild1 {
     width: 448px;
@@ -18,18 +14,48 @@ img {
 
 .asideChild {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
-    width: 80%;
-    margin: 0 auto;
-    align-items: center;
     justify-items: center;
 }
 
-.sectionChild {
-    width: 100%;
-    
+.asideChild img {
+    border-radius: 12px;
 }
+
+.sectionChild p {
+    font: var(--style-font-text-second);
+    color: #828282;
+}
+
+.sectionChild h5 {
+    font: var(--style-font-text-fourth);
+    color: var(--color-text);
+}
+
+.mar {
+    margin-top: 5rem;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.btn button {
+    font: var(--style-font-text-fourth);
+    color: var(--background-color-second);
+    border: none;
+    background-color: #fff;
+}
+
+
+
+
+
 
 @media screen and (max-width: 900px){
     .asideChild1 {
@@ -37,4 +63,21 @@ img {
         text-align: center;
         font: var(--style-font-text-fourth);
     }
+
+    .asideChild {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
 }
+
+@media  screen and (max-width: 760px){
+    .mar {
+        margin-top: 0;
+    }
+
+    .btn {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+    
