@@ -8,6 +8,7 @@ import './index.css'
 import Nav from '../Components/Nav/nav.jsx'
 import Banner from '../Components/Banner/banner.jsx'
 import Card from '../Components/Card/card.jsx'
+import Imagine from '../Components/Imagine/imagine.jsx'
 
 
 
@@ -21,7 +22,7 @@ ReactDOM.render(
       <Nav></Nav>
       <Banner></Banner>
       <Card></Card>
-
+      <Imagine></Imagine>
       <Team></Team>
       <Coments></Coments>
     </div>

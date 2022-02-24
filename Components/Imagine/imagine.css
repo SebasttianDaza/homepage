@@ -1,0 +1,40 @@
+
+.Aside {
+    width: 90%;
+    height: auto;
+    margin: 4rem auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.asideChild1 {
+    width: 448px;
+    font: var(--style-font-text-third);
+    color: var(--color-text);
+}
+
+.asideChild {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.sectionChild {
+    width: 100%;
+    
+}
+
+@media screen and (max-width: 900px){
+    .asideChild1 {
+        width: 100%;
+        text-align: center;
+        font: var(--style-font-text-fourth);
+    }
+}
