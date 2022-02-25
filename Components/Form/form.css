@@ -44,6 +44,7 @@
 @media screen and (max-width: 900px){
     .classConten {
         grid-template-columns: 1fr .4fr;
+        width: 291px;
     }
 
     .classConten button {
