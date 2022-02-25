@@ -1,12 +1,13 @@
 .footer {
     width: 100%;
-    height: 385px;
+    height: auto;
     background-color:var(--background-color-footer);
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 2rem 0;
 }
 
 .content {
@@ -15,8 +16,6 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 2rem;
     height: 90%;
-    
-    
 }
 
 .navFooter {
@@ -27,6 +26,8 @@
     width: 100%;
     height: 90%;
 }
+
+
 
 .links {
     margin: 0;
@@ -48,6 +49,34 @@
     margin: 0;
 }
 
+.navFooter1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 90%;
+    font: var(--style-font-text-sixth)
+}
+
+.navFooter1 section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 180px;
+}
+.navFooter1 section h4 {
+    margin: 0;
+}
+
+#contentImage img {
+    margin-right: .7rem;
+}
+
+.navFooter3 {
+    height: 180px;
+}
 @media screen and (max-width: 900px) {
     .navFooter {
         align-items: flex-start;

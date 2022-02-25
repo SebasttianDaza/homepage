@@ -1,5 +1,5 @@
 import "./banner.css";
-
+import Form from "../Form/form";
 
 function Banner () {
     return (
@@ -18,13 +18,7 @@ function Banner () {
             outperform your toughest competition and help you achieve your
             strategic goals in short period of time.
           </p>
-          <form id='form'>
-            <label for="Email">Want us to contact you?</label>
-            <div>
-                <input type="email" name="email" id="Email" placeholder="Email"></input>
-                <button type="submit">Send</button>
-            </div>
-          </form>
+          <Form></Form>
         </section>
       </main>
     );
