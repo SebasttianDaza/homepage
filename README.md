@@ -33,7 +33,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://firebasestorage.googleapis.com/v0/b/emprendeyourlifestyle.appspot.com/o/homePage.png?alt=media&token=04c71bcc-1189-4f47-9a69-c8a810c9c1d9)
 
 Homepage that has allowed me learning with React, web components, props, render, also CSS Grid and Flex, and all it with architecture of files and folders.
 
