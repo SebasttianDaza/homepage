@@ -2,7 +2,7 @@ import "./footer.css";
 import Links from "../Links/links";
 import Form from "../Form/form";
 
-function Footer () {
+function Footer (props) {
     return (
       <footer className="footer">
         <section className="content">
@@ -14,15 +14,15 @@ function Footer () {
               <h4>Edie</h4>
               <div id='contentImage'>
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/emprendeyourlifestyle.appspot.com/o/HomePage%2Finstagram.svg?alt=media&token=01217b4d-6868-403b-98cd-f7626b07ce26"
+                  src={props.instagram}
                   alt="Image of instagram"
                 ></img>
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/emprendeyourlifestyle.appspot.com/o/HomePage%2Flinkedin.svg?alt=media&token=337744f4-d8e3-4b3f-a503-41bbc57c9c5e"
+                  src={props.twitter}
                   alt="Image of Linkedin"
                 ></img>
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/emprendeyourlifestyle.appspot.com/o/HomePage%2Ftwitter.svg?alt=media&token=11b56e3b-11d5-4ecc-96a0-714cdf64e170"
+                  src={props.linkedin}
                   alt="Image Twitter"
                 ></img>
               </div>

@@ -1,7 +1,7 @@
 import "./team.css";
 
 
-function Team () {
+function Team (props) {
     return (
       <section className="Team">
         <div className="teamChild">
@@ -11,11 +11,11 @@ function Team () {
         </div>
         <div className="teamChild2">
           <div>
-            <img src="../../assets/person3.png" alt="Image of Team"></img>
+            <img src={props.image3} alt="Image of Team"></img>
           </div>
           <aside>
-            <img src="../../assets/person1.png" alt="Image of Team"></img>
-            <img src="../../assets/person2.png" alt="Image of Team"></img>
+            <img src={props.image} alt="Image of Team"></img>
+            <img src={props.image2} alt="Image of Team"></img>
           </aside>
         </div>
       </section>

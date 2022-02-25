@@ -1,7 +1,7 @@
 import "./imagine.css"
 
 
-function Imagine () {
+function Imagine (props) {
     return (
       <aside className="Aside">
         <section className="asideChild1">
@@ -9,23 +9,23 @@ function Imagine () {
         </section>
         <section className="asideChild">
           <div className="sectionChild mar">
-            <img src="../../assets/smarthome.jpg" alt="Image the service"></img>
+            <img src={props.image} alt="Image the service"></img>
             <p>Full stack application</p>
             <h5>Smart home dashboard</h5>
           </div>
           <div className="sectionChild">
-            <img src="../../assets/onboard.png" alt="Image the service"></img>
+            <img src={props.image1} alt="Image the service"></img>
             <p>UX/UI design</p>
             <h5>Onboard application</h5>
           </div>
           <div className="sectionChild mar">
-            <img src="../../assets/booking.png" alt="Image the service"></img>
+            <img src={props.image2} alt="Image the service"></img>
             <p>Mobile application</p>
             <h5>Booking system</h5>
           </div>
           <div className="sectionChild ">
             <img
-              src="../../assets/juice-product.png"
+              src={props.image3}
               alt="Image the service"
             ></img>
             <p>Front End applicati on</p>

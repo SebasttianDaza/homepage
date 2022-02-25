@@ -1,7 +1,7 @@
 import "./banner.css";
 import Form from "../Form/form";
 
-function Banner () {
+function Banner (props) {
     return (
       <main className="principal">
         <section className="first">
@@ -9,7 +9,7 @@ function Banner () {
           <h2>We create beautiful and fast web services</h2>
         </section>
         <section className="second">
-          <img src={"../../assets/heroImage.jpg"} alt=""></img>
+          <img src={props.image} alt=""></img>
         </section>
         <section className="third">
           <h3>Story, emotion and purpose</h3>
