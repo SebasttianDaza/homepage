@@ -7,11 +7,10 @@ function Nav () {
         <div className="title">
           <h1>Edie</h1>
         </div>
-
         <Links id="nav" className="linksNavegation"></Links>
-
         <button
           onClick={() => {
+            document.getElementById("root").classList.toggle("scroll");
             document.getElementById("btn").classList.toggle("is-active");
             document.getElementById("nav").classList.toggle("is-actives");
           }}

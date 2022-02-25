@@ -4,7 +4,7 @@ function Form () {
     return (
       <form id="form">
         <label for="Email">Want us to contact you?</label>
-        <div>
+        <div className="classConten">
           <input
             type="email"
             name="email"
